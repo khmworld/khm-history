@@ -68,7 +68,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 ## 프로젝트 이력
 
 
-<img src='./images/13-15.jpg' width="80" />
+<img src='./images/13-15.jpg' width="280" />
 
 ### Samsung StartTV Ontv Service
 - 소개: 방송 프로그램 추천 및 CP의 메타데이터를 활용한 컨텐츠 추천

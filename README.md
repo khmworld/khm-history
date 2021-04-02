@@ -55,3 +55,22 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 - 이슈관리 - Github / Jira(애자일/스프린트/칸반)/ Confluce
 - CI/CD - Jenkins / SonarQube
 - 버전관리 - Git tag base
+
+### TODO
+대규모 트래픽을 다루고 그에 파생되는 빅 데이터 로그를 다루는 일은 즐거운 일입니다. <br/>
+현재는 아래것들을 구축 하거나 또는 비용 효율화를 하고 있습니다.
+- Webflux webapp에서 AWS X-ray 트래킹
+- Firelense를 활용한 로깅 시스템 비용 감축 및 데이터레이크,데이터웨어하우스 구축
+
+앞으로는 아래것들을 익히고 적용하려 합니다.
+- GCP Pub/Sub, AWS SageMaker(ML)
+
+## 프로젝트 이력
+
+
+<img src='./images/13-15.jpg' width="80" />
+
+### Samsung StartTV Ontv Service
+- 소개: 방송 프로그램 추천 및 CP의 메타데이터를 활용한 컨텐츠 추천
+- Rest API[C#] - 윈도우 서버 유지보수 업무, Jquery를 활용하여 시뮬레이터 개발, 배치모니터링 사이트 개발 
+- 기간 : 2013.04 ~ 2015.03

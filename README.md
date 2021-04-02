@@ -52,7 +52,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 ### Process
 - 모니터링 - CloudWatch Dashboard/Insight, X-ray
 - 커뮤니케이션 - Slack(사용할 줄 압니다), 대부분 회사 메신져 사용
-- 이슈관리 - Github / Jira(애자일/스프린트/칸반)/ Confluce
+- 이슈관리 - Github / Jira(애자일/스프린트/칸반)/ Confluence
 - IAC - Terraform / Jenkins
 - CI/CD - Jenkins / SonarQube
 - 버전관리 - Git tag base
@@ -81,7 +81,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 ### Samsung SmartTV Game Service
 - 소개 : 게임 컨텐츠 제공 서비스, 게임 패널에서 국가별 게임 제공
 - 주요 업무 : Rest API[C#](윈도우 서버) -> Java Spring Rest API 변경(리눅스 서버), 기존 온프레미스 RDB ->
-AWS RDS 변경, Code 리팩토링, 코딩 컨벤션 작성, 개발 환경 공통화
+AWS RDS 변경, Code 리팩토링, 코딩 컨벤션 작성, 개발 환경 공통화, CI/CD 구성(내부 시스템)
 - 성과 : 개발 환경 공통화 및 개발내용 모든 내용 문서화 , 인프라 비용 전년대비 약 80% 절감
 - 기간 : 2015.04 ~ 2016.12
 
@@ -104,6 +104,26 @@ AWS athena 솔루션 도입 및 배치 개발, Terraform을 사용하여 IAC 관
 
 ### Samsung SmartTV Universal Guide Service
 - 소개 : 실시간 방송 추천(사용자 프로필 기반 및 시청이력), OTT 추천(사용자 프로필 기반), 가장 인기있는 프로그램 추천해주는 서비스
-- 주요 업무 : 
-- 성과 :
+- 주요 업무 : 초기 인프라 구조 설계 (GCP,AWS) 및 솔루션 설계 (GKE,EKS,ECS), Terraform + Jenkins를 활용하여 IAC 자동관리, 초기 Rest API 스펙 설계 및 구현(Spring Boot)
+MSA 환경에 맞는 HTTP Cache 도입, AWS X-ray Service Tracking 도입, 기존 Dashboard 솔루션 Quicksight로 변경, Jenkins CI/CD 구성(Groovy 스크립트 작성)
+AB TEST 초기 설계 및 구현, AB Test Dashboard 설계 및 구현
+- 성과 : 기존 인프라 비용 40% 절감, 성능에 문제가 있던 대시보드 40배 향상
 - 기간 : 2018.04 ~ 현재
+
+
+## 수상 경력
+대학교때 여러 아이디어 공모전에 참여하여 수상한 이력이 있습니다. <br/>
+
+#### 다날 대학생 아이디어 공모전 - 대상
+- 수상 날짜 : 2011년 06월
+- 참고 : 기사 링크 [http://www.dt.co.kr/contents.html?article_no=2011061702012169747002]
+
+#### MBC 대한민국 앱 아이디어 공모전 - 장려상
+- 수상 날짜 : 2011년 11월
+
+
+----
+
+여기까지 읽어주셔서 감사합니다. <br/>
+부족한 부분이나 더 궁금하신 내용이 있다면 [이슈](https://github.com/khmworld/khm-history/issues)로 남겨주시겨나, khmdev87@gmail.com으로 연락주세요.<br/>
+감사합니다.

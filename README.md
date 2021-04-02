@@ -53,6 +53,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 - 모니터링 - CloudWatch Dashboard/Insight, X-ray
 - 커뮤니케이션 - Slack(사용할 줄 압니다), 대부분 회사 메신져 사용
 - 이슈관리 - Github / Jira(애자일/스프린트/칸반)/ Confluce
+- IAC - Terraform / Jenkins
 - CI/CD - Jenkins / SonarQube
 - 버전관리 - Git tag base
 
@@ -70,7 +71,16 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 
 <img src='./images/13-15.jpg' width="280" />
 
-### Samsung StartTV Ontv Service
-- 소개: 방송 프로그램 추천 및 CP의 메타데이터를 활용한 컨텐츠 추천
+### Samsung SmartTV Ontv Service
+- 소개 : 방송 프로그램 추천 및 CP의 메타데이터를 활용한 컨텐츠 추천
 - 주요 업무 및 성과 : Rest API[C#] - 윈도우 서버 유지보수 업무, Jquery를 활용하여 시뮬레이터 개발, 배치모니터링 사이트 개발 
 - 기간 : 2013.04 ~ 2015.03
+
+<img src='./images/15-16.jpg' width="280" />
+
+### Samsung SmartTV Game Service
+- 소개 : 게임 컨텐츠 제공 서비스, 게임 패널에서 국가별 게임 제공
+- 주요 업무 : Rest API[C#](윈도우 서버) -> Java Spring Rest API 변경(리눅스 서버), 기존 온프레미스 RDB ->
+AWS RDS 변경, Code 리팩토링, 코딩 컨벤션 작성, 개발 환경 공통화
+- 성과 : 개발 환경 공통화 및 개발내용 모든 내용 문서화 , 인프라 비용 전년대비 약 80% 절감
+- 기간 : 2015.04 ~ 2016.12

@@ -41,7 +41,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 - AWS Lambda
 - AWS APIGateway
 - AWS Kinesis (Stream,Firehose)
-- AWS Aurora RDB, S3
+- AWS Aurora RDB, Elastic Cache, S3
 - AWS Athena
 - AWS Glue
 - AWS Quicksight 
@@ -84,3 +84,26 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 AWS RDS 변경, Code 리팩토링, 코딩 컨벤션 작성, 개발 환경 공통화
 - 성과 : 개발 환경 공통화 및 개발내용 모든 내용 문서화 , 인프라 비용 전년대비 약 80% 절감
 - 기간 : 2015.04 ~ 2016.12
+
+<img src='./images/17-17_9.JPG' width="280" />
+
+### Samsung SmartTV Common Platform 
+- 소개 : SmartTV에서 제공되는 여러 서비스를 공통적으로 관리하는 모듈 및 여러 서비스 API를 관리하는 게이트웨이 서버 제공 
+- 주요 업무 및 성과 : API 게이트웨이 유지보수, AWS 람다를 이용한 광고추천 모듈 개발, TV 도난방지 시스템 구축 및 개발
+- 기간 : 2017.01 ~ 2017.09
+
+<img src='./images/17_9-18_3.JPG' width="280" />
+
+### Samsung SmartTV 데이터 분석 및 인사이트
+- 소개 : SmartTV에서 서비스 Client or 서버에서 발생하는 다량의 이벤트 데이터를 취합하여, 분석 및 가공하여 PM or 의사결정자에게 인사이트 제공
+- 주요 업무 및 성과 : 초창기 인프라 구조 설계, 데이터 분석 후 대시보드 개발(AWS Quicksight), GLue를 통한 파티셔닝 및 ETL 구성,
+AWS athena 솔루션 도입 및 배치 개발, Terraform을 사용하여 IAC 관리 
+- 기간 : 2017.09 ~ 2018.03
+
+<img src='./images/18_4-NOW.JPG' width="280" />
+
+### Samsung SmartTV Universal Guide Service
+- 소개 : 실시간 방송 추천(사용자 프로필 기반 및 시청이력), OTT 추천(사용자 프로필 기반), 가장 인기있는 프로그램 추천해주는 서비스
+- 주요 업무 : 
+- 성과 :
+- 기간 : 2018.04 ~ 현재

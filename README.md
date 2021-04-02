@@ -72,5 +72,5 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 
 ### Samsung StartTV Ontv Service
 - 소개: 방송 프로그램 추천 및 CP의 메타데이터를 활용한 컨텐츠 추천
-- Rest API[C#] - 윈도우 서버 유지보수 업무, Jquery를 활용하여 시뮬레이터 개발, 배치모니터링 사이트 개발 
+- 주요 업무 및 성과 : Rest API[C#] - 윈도우 서버 유지보수 업무, Jquery를 활용하여 시뮬레이터 개발, 배치모니터링 사이트 개발 
 - 기간 : 2013.04 ~ 2015.03

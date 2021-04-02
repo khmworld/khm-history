@@ -1,4 +1,4 @@
-# 이력서
+# History
 ![status](https://img.shields.io/badge/working-brightgreen.svg)
 
 ## 소개

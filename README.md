@@ -76,7 +76,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 - 주요 업무 및 성과 : Rest API[C#] - 윈도우 서버 유지보수 업무, Jquery를 활용하여 시뮬레이터 개발, 배치모니터링 사이트 개발 
 - 기간 : 2013.04 ~ 2015.03
 
-<img src='./images/15-16.jpg' width="280" />
+<img src='./images/15-16.JPG' width="280" />
 
 ### Samsung SmartTV Game Service
 - 소개 : 게임 컨텐츠 제공 서비스, 게임 패널에서 국가별 게임 제공

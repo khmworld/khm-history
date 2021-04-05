@@ -80,6 +80,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 	- 배치모니터링 사이트 개발 
 - 기간 : 2013.04 ~ 2015.03
 
+
 <img src='./images/15-16.JPG' width="280" />
 
 ### Samsung SmartTV Game Service
@@ -95,6 +96,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 	- 인프라 비용 전년대비 약 80% 절감
 - 기간 : 2015.04 ~ 2016.12
 
+
 <img src='./images/17-17_9.JPG' width="280" />
 
 ### Samsung SmartTV Common Platform 
@@ -104,6 +106,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 	- AWS 람다를 이용한 광고추천 모듈 개발
 	- TV 도난방지 시스템 구축 및 개발
 - 기간 : 2017.01 ~ 2017.09
+
 
 <img src='./images/17_9-18_3.JPG' width="280" />
 
@@ -116,6 +119,7 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 	- AWS athena 솔루션 도입 및 배치 개발
 	- Terraform을 사용하여 IAC 관리 
 - 기간 : 2017.09 ~ 2018.03
+
 
 <img src='./images/18_4-NOW.JPG' width="280" />
 

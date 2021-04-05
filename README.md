@@ -73,40 +73,64 @@ Monolithic Architecture 환경 웹 애플리케이션을 만드는데 능숙 합
 
 ### Samsung SmartTV Ontv Service
 - 소개 : 방송 프로그램 추천 및 CP의 메타데이터를 활용한 컨텐츠 추천
-- 주요 업무 및 성과 : Rest API[C#] - 윈도우 서버 유지보수 업무, Jquery를 활용하여 시뮬레이터 개발, 배치모니터링 사이트 개발 
+- 주요 업무 및 성과 : 
+	- Rest API[C#] 
+	- 윈도우 서버 유지보수 업무 
+	- Jquery를 활용하여 시뮬레이터 개발 
+	- 배치모니터링 사이트 개발 
 - 기간 : 2013.04 ~ 2015.03
 
 <img src='./images/15-16.JPG' width="280" />
 
 ### Samsung SmartTV Game Service
 - 소개 : 게임 컨텐츠 제공 서비스, 게임 패널에서 국가별 게임 제공
-- 주요 업무 : Rest API[C#](윈도우 서버) -> Java Spring Rest API 변경(리눅스 서버), 기존 온프레미스 RDB ->
-AWS RDS 변경, Code 리팩토링, 코딩 컨벤션 작성, 개발 환경 공통화, CI/CD 구성(내부 시스템)
-- 성과 : 개발 환경 공통화 및 개발내용 모든 내용 문서화 , 인프라 비용 전년대비 약 80% 절감
+- 주요 업무 : Rest API[C#](윈도우 서버) 
+	- Java Spring Rest API 변경(리눅스 서버)
+	- 기존 온프레미스 RDB -> AWS RDS 변경 
+	- Code 리팩토링 및 Coding 컨벤션 작성
+	- 개발 환경 공통화 
+	- CI/CD 구성(내부 시스템)
+- 성과 : 
+	- 개발 환경 공통화 및 개발내용 모든 내용 문서화 
+	- 인프라 비용 전년대비 약 80% 절감
 - 기간 : 2015.04 ~ 2016.12
 
 <img src='./images/17-17_9.JPG' width="280" />
 
 ### Samsung SmartTV Common Platform 
 - 소개 : SmartTV에서 제공되는 여러 서비스를 공통적으로 관리하는 모듈 및 여러 서비스 API를 관리하는 게이트웨이 서버 제공 
-- 주요 업무 및 성과 : API 게이트웨이 유지보수, AWS 람다를 이용한 광고추천 모듈 개발, TV 도난방지 시스템 구축 및 개발
+- 주요 업무 및 성과 : 
+	- API 게이트웨이 유지보수
+	- AWS 람다를 이용한 광고추천 모듈 개발
+	- TV 도난방지 시스템 구축 및 개발
 - 기간 : 2017.01 ~ 2017.09
 
 <img src='./images/17_9-18_3.JPG' width="280" />
 
 ### Samsung SmartTV 데이터 분석 및 인사이트
 - 소개 : SmartTV에서 서비스 Client or 서버에서 발생하는 다량의 이벤트 데이터를 취합하여, 분석 및 가공하여 PM or 의사결정자에게 인사이트 제공
-- 주요 업무 및 성과 : 초창기 인프라 구조 설계, 데이터 분석 후 대시보드 개발(AWS Quicksight), GLue를 통한 파티셔닝 및 ETL 구성,
-AWS athena 솔루션 도입 및 배치 개발, Terraform을 사용하여 IAC 관리 
+- 주요 업무 및 성과 : 
+	- 초창기 AWS 인프라 구조 설계
+	- 데이터 분석 후 대시보드 개발(AWS Quicksight)
+	- AWS GLue를 통한 파티셔닝 및 ETL 구성
+	- AWS athena 솔루션 도입 및 배치 개발
+	- Terraform을 사용하여 IAC 관리 
 - 기간 : 2017.09 ~ 2018.03
 
 <img src='./images/18_4-NOW.JPG' width="280" />
 
 ### Samsung SmartTV Universal Guide Service
 - 소개 : 실시간 방송 추천(사용자 프로필 기반 및 시청이력), OTT 추천(사용자 프로필 기반), 가장 인기있는 프로그램 추천해주는 서비스
-- 주요 업무 : 초기 인프라 구조 설계 (GCP,AWS) 및 솔루션 설계 (GKE,EKS,ECS), Terraform + Jenkins를 활용하여 IAC 자동관리, 초기 Rest API 스펙 설계 및 구현(Spring Boot)
-MSA 환경에 맞는 HTTP Cache 도입, AWS X-ray Service Tracking 도입, 기존 Dashboard 솔루션 Quicksight로 변경, Jenkins CI/CD 구성(Groovy 스크립트 작성)
-AB TEST 초기 설계 및 구현, AB Test Dashboard 설계 및 구현
+- 주요 업무 : 
+	- 초기 인프라 구조 설계 (GCP,AWS) 및 솔루션 설계 (GKE,EKS,ECS)
+	- Terraform + Jenkins를 활용하여 IAC 자동관리
+	- 초기 Rest API 스펙 설계 및 구현(Spring Boot)
+	- MSA 환경에 맞는 HTTP Cache 도입 및 구현
+	- AWS X-ray Service Tracking 도입 (For Monolithic Software)
+	- 기존 Dashboard 솔루션 Quicksight로 변경 (의사결정자에게 인사이트 제공)
+	- Jenkins CI/CD 구성 (Groovy 스크립트 작성)
+	- AB TEST 초기 설계 및 구현
+	- AB Test Dashboard 설계 및 구현
 - 성과 : 기존 인프라 비용 40% 절감, 성능에 문제가 있던 대시보드 40배 향상
 - 기간 : 2018.04 ~ 현재
 
